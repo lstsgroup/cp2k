@@ -342,12 +342,12 @@ CONTAINS
                num_integ_points = 30
             END IF
          ELSE
-            IF (do_minimax_quad .AND. num_integ_points > 20) THEN
+            IF (do_minimax_quad .AND. num_integ_points > 34) THEN
                IF (unit_nr > 0) &
                   CALL cp_warn(__LOCATION__, &
                                "The required number of quadrature point exceeds the maximum possible in the "// &
-                               "Minimax quadrature scheme. The number of quadrature point has been reset to 20.")
-               num_integ_points = 20
+                               "Minimax quadrature scheme. The number of quadrature point has been reset to 30.")
+               num_integ_points = 30
             END IF
          END IF
       END IF
