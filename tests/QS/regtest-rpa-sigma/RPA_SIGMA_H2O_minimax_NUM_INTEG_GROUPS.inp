@@ -47,7 +47,7 @@
         &RI_RPA
           MINIMAX
           NUM_INTEG_GROUPS 4
-          RPA_NUM_QUAD_POINTS 6
+          RPA_NUM_QUAD_POINTS 26
           SIGMA_FUNCTIONAL PBE0_S2
           &HF
             FRACTION 1.0000000
